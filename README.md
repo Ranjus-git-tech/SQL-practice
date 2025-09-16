@@ -31,3 +31,31 @@ I used this project to learn and experiment with essential SQL concepts such as 
   - Resetting IDs
  
   - updates will be added in the future as I grow more familiar with SQL.
+ 
+
+# Office Database (MySQL)
+
+This project contains a sample **Office Database** implemented in MySQL.  
+It models employees, branches, clients, suppliers, and their relationships, inspired by *The Office*.  
+
+---
+
+## 📂 Contents
+- **`office_db.sql`** – Full SQL script including:
+  - Table creation with relationships and constraints
+  - Sample data inserts
+  - Updates to link managers and employees
+  - Example queries (ordering, aggregation, wildcards, unions, joins, nested queries)
+
+- **`README.md`** – Project documentation
+
+---
+
+## 🗄️ Database Schema
+The database consists of the following tables:
+- **employee** – Employee details, salaries, managers, and branches
+- **branch** – Branch information and managers
+- **client** – Clients associated with branches
+- **works_with** – Sales between employees and clients
+- **branch_supplier** – Suppliers linked to branches
+
